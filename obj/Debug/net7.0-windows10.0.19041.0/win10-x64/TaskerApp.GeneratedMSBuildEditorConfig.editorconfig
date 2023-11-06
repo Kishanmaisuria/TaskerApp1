@@ -1,0 +1,96 @@
+is_global = true
+build_property.PropertyChangedAnalyzerConfiguration = 
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TaskerApp
+build_property.ProjectDir = C:\Users\sskis\OneDrive\Documents\T4 Projects\TaskerApp\
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/Pages/AddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.Pages.AddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddPage.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/Resources/Styles/AppStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.Resources.Styles.AppStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\AppStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\AppStyles.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/TaskerApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.TaskerApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskerApp\App.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskerApp\App.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/TaskerApp/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.TaskerApp.obj.Debug.net7._0_windows10._0._19041._0.win10_x64.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/TaskerApp/Pages/AddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.TaskerApp.Pages.AddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskerApp\Pages\AddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskerApp\Pages\AddPage.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/TaskerApp/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.TaskerApp.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskerApp\Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskerApp\Pages\MainPage.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/TaskerApp/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.TaskerApp.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskerApp\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskerApp\Platforms\Windows\App.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/TaskerApp/Resources/Styles/AppStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.TaskerApp.Resources.Styles.AppStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskerApp\Resources\Styles\AppStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskerApp\Resources\Styles\AppStyles.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/TaskerApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.TaskerApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskerApp\Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskerApp\Resources\Styles\Colors.xaml
+
+[C:/Users/sskis/OneDrive/Documents/T4 Projects/TaskerApp/TaskerApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TaskerApp.TaskerApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskerApp\Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskerApp\Resources\Styles\Styles.xaml

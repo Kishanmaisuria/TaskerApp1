@@ -1,0 +1,1 @@
+C:\Users\sskis\OneDrive\Documents\T4 Projects\TaskerApp\TaskerApp.csproj;x64

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskerApp.Pages.MainPage"
+             xmlns:converters="clr-namespace:TaskerApp.Converter"
+             Title="MainPage">
+<!--This gets the Color conveter from my file -->
+    <ContentPage.Resources>
+        <converters:CCON x:Key="ColorConverter"/>
+    </ContentPage.Resources>
+
+    <!--Grid is set up so my page is oriented -->
+    <Grid Margin="16" RowDefinitions=".1*,.3*,.7*">
+        
+        <Label Text="Tasks to do" StyleClass="dark, Header"/>
+
+        <Grid Grid.Row="1" RowDefinitions=".2*,.8*">
+            
+            <Label StyleClass="White, SubHeader" Text="Main Categories"/>
+            <!--This Item sourse links with my View Model -->
+            <CollectionView Grid.Row="1" ItemsSource="{Binding Categories}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="5" Orientation="Horizontal"/>
+                </CollectionView.ItemsLayout>
+                
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <RoundRectangle />
+                            <VerticalStackLayout Spacing="10" Padding="15">
+                                <Label StyleClass="LightBlue" TextColor="Black">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding PT}" FontAttributes="None" />
+                                            <Span Text="/" FontAttributes="None" />
+                                            <Span Text="{Binding TOT}" FontAttributes="None" />
+                                            <Span Text=" tasks remaining" FontAttributes="None" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <!--this is also links to my viewmodel -->
+                                <Label StyleClass="DarkBlue, CardTitle" Text="{Binding CN}"/>
+                                <!--this is also links to my Convertier file called  -->
+                                <ProgressBar Progress="{Binding PER}" ProgressColor="{Binding Color, Converter={StaticResource ColorConverter}}"/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </Grid>
+
+
+
+        <Grid Grid.Row="2" RowDefinitions=".2*,.8*">
+            <!--this shows my tasks  -->
+            <Label StyleClass="LightBlue, SubHeader" Text="Tasks To Do" TextColor="Black"/>
+            <CollectionView Grid.Row="1" ItemsSource="{Binding Tasks}" ItemsUpdatingScrollMode="KeepLastItemInView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Transparent">
+                            <HorizontalStackLayout>
+
+                                <!--this is my checkbox that has been linked with 2 files CCON and Viewmodel  -->
+                                <CheckBox x:Name="CheckBox" 
+                                          VerticalOptions="Center"
+                                          CheckedChanged="CheckBox_CheckedChanged"
+                                          IsChecked="{Binding Completed}"
+                                          Color="{Binding TCOL,  Converter={StaticResource ColorConverter}}"/>
+                                <Label Text="{Binding TNAME}" VerticalOptions="Center">
+
+                                    <Label.Triggers>
+                                        <DataTrigger Binding="{Binding Source={x:Reference CheckBox}, Path=IsChecked}"
+                                                     TargetType="Label"
+                                                     Value="True">
+                                            <Setter Property="TextDecorations" Value="Strikethrough"/>
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        <!--This will Brings us to Page 2 the adding page  -->
+        <Button Grid.Row="2"
+                Text="ADD"
+                x:Name="Adding"
+                Clicked="Adding_Clicked"
+                WidthRequest="67"
+                HeightRequest="67"
+                VerticalOptions="End"
+                HorizontalOptions="End"
+                />
+    </Grid>
+
+</ContentPage>
